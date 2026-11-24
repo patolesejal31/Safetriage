@@ -1,0 +1,3078 @@
+[
+  {
+    "case_id": "SYNTH-0851",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Notice: Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus? Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0852",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "I am writing because Horrible migraine-like pain, vomited multiple times, drifting into sleep constantly, acting confused. Please help me understand.",
+    "age_group": "infant",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0853",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0854",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Please advise, Might have been slightly dizzy yesterday, or maybe just sleepy. No chest pain, no shortness of breath, fully recovered. Please help me understand.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0855",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0856",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "I am writing because My hedache is horible and im throwin up since 2 days, feeling verry drowzy. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0857",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "I am writing because Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0858",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Currently, Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting. Looking for guidance.",
+    "age_group": "elderly",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0859",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Namaste doctor, Worst headache of my life struck without warning 30 minutes ago, throbbing agonizingly with nausea. Waiting for advice.",
+    "age_group": "child",
+    "duration": "45 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0860",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Patient has intense pounding headache, vomited 4 times today, disoriented to time and very sleepy. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0861",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Mild headache began yesterday afternoon, and I threw up once this morning, feeling somewhat nauseous. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0862",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Starting earlier today, Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0863",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Sudden onset of the worst headache of my entire life, feels like a thunderclap inside my skull, accompanied by vomiting and neck stiffness. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0864",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "For context: Horrible headache and throwing up for 2 days, very drowsy. No chest pain, no limb paralysis. What should I do?",
+    "age_group": "adult",
+    "duration": "8 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0865",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0866",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Not sure if I felt a little dizzy yesterday afternoon or just stood up fast. Feeling completely fine today, no chest pain. Waiting for advice.",
+    "age_group": "elderly",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0867",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Currently, Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes.",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0868",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Horrible headache and throwing up since yesterday, extremely drowsy, speaking slowly and confused. Waiting for advice.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0869",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Moderate headache for 24 hours followed by an episode of vomiting today, resting in bed, no fever. What should I do?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0870",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Not certain if I felt dizzy yesterday or just dehydrated. Drank water and feel 100% fine now, no weakness. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0871",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "I am writing because Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. Looking for guidance.",
+    "age_group": "child",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0872",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "I am writing because Horrible headache and throwing up since yesterday, extremely drowsy, speaking slowly and confused. Looking for guidance.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0873",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Moderate headache for 24 hours followed by an episode of vomiting today, resting in bed, no fever. What should I do?",
+    "age_group": "infant",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0874",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Namaste doctor, Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today. What should I do?",
+    "age_group": "elderly",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0875",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. What should I do?",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0876",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Horrible migraine-like pain, vomited multiple times, drifting into sleep constantly, acting confused. Please help me understand.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0877",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, I have had a mild headache since yesterday, and today I started vomiting.",
+    "age_group": "elderly",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0878",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Maybe I felt slightly dizzy yesterday, not sure. I do NOT have chest pain, no weakness, no fainting. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0879",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Starting earlier today, Sudden thunderclap headache like being hit with a club on head, vomiting and stiff neck.",
+    "age_group": "infant",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0880",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Notice: Severe headache with continuous nausea and vomiting, feeling very lethargic, difficult to wake up. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0881",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Currently, Mild headache began yesterday afternoon, and I threw up once this morning, feeling somewhat nauseous. What should I do?",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0882",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Not sure if I felt a little dizzy yesterday afternoon or just stood up fast. Feeling completely fine today, no chest pain. Please help me understand.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0883",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Sudden thunderclap pain in back of head while lifting heavy water bucket, unbearable agony, dizzy and threw up. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0884",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Namaste doctor, Horrible headache and throwing up for 2 days, very drowsy. No chest pain, no limb paralysis. Please help me understand.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0885",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Starting earlier today, Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0886",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Not certain if I felt dizzy yesterday or just dehydrated. Drank water and feel 100% fine now, no weakness. Should I seek medical attention?",
+    "age_group": "unknown",
+    "duration": "yesterday",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0887",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Worst headache of my life struck without warning 30 minutes ago, throbbing agonizingly with nausea. Waiting for advice.",
+    "age_group": "elderly",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0888",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Notice: Horrible headache and throwing up for 2 days, very drowsy. No chest pain, no limb paralysis. What should I do?",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0889",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0890",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Namaste doctor, Perhaps I felt slightly off balance yesterday for 5 seconds after not eating lunch. No weakness, no fainting, normal today. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0891",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "I am writing because Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. Please help me understand.",
+    "age_group": "elderly",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0892",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, My hedache is horible and im throwin up since 2 days, feeling verry drowzy. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "3 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0893",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Notice: Moderate headache for 24 hours followed by an episode of vomiting today, resting in bed, no fever. Please help me understand.",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0894",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "I am writing because Felt kind of weird and dizzy for a moment yesterday in the heat, not sure. Completely resolved now, no chest pain, no weakness. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0895",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Currently, Sudden thunderclap headache like being hit with a club on head, vomiting and stiff neck. Please help me understand.",
+    "age_group": "infant",
+    "duration": "45 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0896",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, My hedache is horible and im throwin up since 2 days, feeling verry drowzy. Waiting for advice.",
+    "age_group": "elderly",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0897",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. What should I do?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0898",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "I am writing because Maybe I felt slightly dizzy yesterday, not sure. I do NOT have chest pain, no weakness, no fainting. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0899",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "I am writing because Worst headache of my life struck without warning 30 minutes ago, throbbing agonizingly with nausea. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0900",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, Patient has intense pounding headache, vomited 4 times today, disoriented to time and very sleepy. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0901",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0902",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Maybe I felt slightly dizzy yesterday, not sure. I do NOT have chest pain, no weakness, no fainting. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0903",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Starting earlier today, Worst headache of my life struck without warning 30 minutes ago, throbbing agonizingly with nausea. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0904",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, Severe headache and throwing up for 2 days, feeling heavily drowsy, family noticed confusion. Please help me understand.",
+    "age_group": "adult",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0905",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, Headache started yesterday and today I vomited once, feeling tired and queasy, no neck stiffness. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0906",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Namaste doctor, Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting. Please help me understand.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0907",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Notice: Sudden explosion in head reaching peak intensity in under a minute, neck is rigid, cannot open eyes. Looking for guidance.",
+    "age_group": "child",
+    "duration": "20 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0908",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Notice: Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion. Waiting for advice.",
+    "age_group": "elderly",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0909",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0910",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Starting earlier today, Might have been slightly dizzy yesterday, or maybe just sleepy. No chest pain, no shortness of breath, fully recovered. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0911",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Sudden onset of the worst headache of my entire life, feels like a thunderclap inside my skull, accompanied by vomiting and neck stiffness. What should I do?",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0912",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Namaste doctor, Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0913",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "I am writing because Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags. Please help me understand.",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0914",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "I am writing because Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today. What should I do?",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0915",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "I am writing because Sudden thunderclap pain in back of head while lifting heavy water bucket, unbearable agony, dizzy and threw up. What should I do?",
+    "age_group": "unknown",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0916",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0917",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0918",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting. Please help me understand.",
+    "age_group": "unknown",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0919",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0920",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, My hedache is horible and im throwin up since 2 days, feeling verry drowzy. Looking for guidance.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0921",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Currently, Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "2 weeks",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0922",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Not sure if I felt a little dizzy yesterday afternoon or just stood up fast. Feeling completely fine today, no chest pain. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0923",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Currently, Sudden thunderclap pain in back of head while lifting heavy water bucket, unbearable agony, dizzy and threw up. Please help me understand.",
+    "age_group": "adult",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0924",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Patient has intense pounding headache, vomited 4 times today, disoriented to time and very sleepy. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0925",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Starting earlier today, Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0926",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Currently, Might have been slightly dizzy yesterday, or maybe just sleepy. No chest pain, no shortness of breath, fully recovered. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0927",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Sudden thunderclap headache like being hit with a club on head, vomiting and stiff neck. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0928",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Namaste doctor, Severe headache with continuous nausea and vomiting, feeling very lethargic, difficult to wake up. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0929",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Currently, Headache started yesterday and today I vomited once, feeling tired and queasy, no neck stiffness. What should I do?",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0930",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today. What should I do?",
+    "age_group": "elderly",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0931",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Starting earlier today, Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus? Looking for guidance.",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0932",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, My hedache is horible and im throwin up since 2 days, feeling verry drowzy.",
+    "age_group": "infant",
+    "duration": "3 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0933",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0934",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Starting earlier today, Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0935",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus? Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0936",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "I am writing because Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion. Please help me understand.",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0937",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Please advise, Mild headache since yesterday and started vomiting today. No chest pain, no shortness of breath, no weakness. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0938",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today.",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0939",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Instantaneous 10/10 headache reaching maximum pain in 15 seconds, crying in pain, stiff neck. What should I do?",
+    "age_group": "infant",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0940",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Namaste doctor, Horrible migraine-like pain, vomited multiple times, drifting into sleep constantly, acting confused.",
+    "age_group": "adult",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0941",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Starting earlier today, Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0942",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Not certain if I felt dizzy yesterday or just dehydrated. Drank water and feel 100% fine now, no weakness. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0943",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Notice: Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus? Looking for guidance.",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0944",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "I am writing because Horrible headache and throwing up since yesterday, extremely drowsy, speaking slowly and confused. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0945",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "I am writing because Mild headache began yesterday afternoon, and I threw up once this morning, feeling somewhat nauseous. What should I do?",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0946",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Not sure if I felt a little dizzy yesterday afternoon or just stood up fast. Feeling completely fine today, no chest pain. Please help me understand.",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0947",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Namaste doctor, Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus?",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0948",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, Severe throbbing headache for 2 days with repeated vomiting, disoriented and unable to stay awake. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0949",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Notice: Had a dull headache since yesterday and started vomiting today, no fever, no blurred vision. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0950",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Perhaps I felt slightly off balance yesterday for 5 seconds after not eating lunch. No weakness, no fainting, normal today.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0951",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Notice: Instantaneous 10/10 headache reaching maximum pain in 15 seconds, crying in pain, stiff neck. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0952",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Horrible headache and throwing up since yesterday, extremely drowsy, speaking slowly and confused. Please help me understand.",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0953",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Headache started yesterday and today I vomited once, feeling tired and queasy, no neck stiffness. Should I seek medical attention?",
+    "age_group": "elderly",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0954",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Not sure if I felt a little dizzy yesterday afternoon or just stood up fast. Feeling completely fine today, no chest pain. Should I seek medical attention? (Duration: 3 days, Severity: mild)",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0955",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes.",
+    "age_group": "adult",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0956",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "For context: Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion. Looking for guidance.",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0957",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Notice: Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0958",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Might have been slightly dizzy yesterday, or maybe just sleepy. No chest pain, no shortness of breath, fully recovered. Please help me understand.",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0959",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Currently, Worst headache of my entire life started instantly like thunderclap, but I have a mild runny nose too so maybe it is sinus? Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0960",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, Horrible migraine-like pain, vomited multiple times, drifting into sleep constantly, acting confused. What should I do?",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0961",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "For context: Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0962",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Currently, Felt kind of weird and dizzy for a moment yesterday in the heat, not sure. Completely resolved now, no chest pain, no weakness. What should I do?",
+    "age_group": "unknown",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0963",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes. (Duration: 2 hours, Severity: severe)",
+    "age_group": "infant",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0964",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "For context: Severe headache and throwing up for 2 days, feeling heavily drowsy, family noticed confusion. Waiting for advice.",
+    "age_group": "child",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0965",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Mild head pounding since yesterday, threw up earlier today, resting with fluids, no severe red flags. What should I do?",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0966",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Namaste doctor, Perhaps I felt slightly off balance yesterday for 5 seconds after not eating lunch. No weakness, no fainting, normal today. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0967",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "I am writing because Sudden onset of the worst headache of my entire life, feels like a thunderclap inside my skull, accompanied by vomiting and neck stiffness.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0968",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Starting earlier today, Severe headache with continuous nausea and vomiting, feeling very lethargic, difficult to wake up. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0969",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Mild headache for 1 day, threw up once today, drinking water slowly, no sudden severe pain. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0970",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Currently, Felt kind of weird and dizzy for a moment yesterday in the heat, not sure. Completely resolved now, no chest pain, no weakness.",
+    "age_group": "child",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0971",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "For context: Sudden thunderclap pain in back of head while lifting heavy water bucket, unbearable agony, dizzy and threw up. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0972",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Currently, Severe headache with continuous nausea and vomiting, feeling very lethargic, difficult to wake up. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0973",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Notice: Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0974",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Might have been slightly dizzy yesterday, or maybe just sleepy. No chest pain, no shortness of breath, fully recovered. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0975",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Instantaneous unbearable headache, worst ever 10/10 severity, stiff neck, sensitive to light since 20 minutes. Waiting for advice.",
+    "age_group": "child",
+    "duration": "10 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0976",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Notice: Patient has intense pounding headache, vomited 4 times today, disoriented to time and very sleepy. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0977",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "I am writing because I have had a mild headache since yesterday, and today I started vomiting.",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0978",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting. What should I do?",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0979",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Currently, Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. What should I do?",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0980",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Severe headache and throwing up for 2 days, feeling heavily drowsy, family noticed confusion. Should I seek medical attention?",
+    "age_group": "unknown",
+    "duration": "8 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0981",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Notice: Moderate headache for 24 hours followed by an episode of vomiting today, resting in bed, no fever.",
+    "age_group": "infant",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0982",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Maybe I felt slightly dizzy yesterday or maybe it was just being tired, not sure. No chest pain, no weakness, no fainting. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0983",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0984",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Notice: Debilitating headache for 36 hours, vomiting bile, extreme drowsiness and mild confusion. Waiting for advice. (Duration: unknown, Severity: severe)",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0985",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Starting earlier today, Headache started yesterday and today I vomited once, feeling tired and queasy, no neck stiffness. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0986",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today. Please help me understand.",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0987",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Sudden thunderclap pain in back of head while lifting heavy water bucket, unbearable agony, dizzy and threw up. Please help me understand.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0988",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "For context: Severe headache and throwing up for 2 days, feeling heavily drowsy, family noticed confusion. Please help me understand.",
+    "age_group": "unknown",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0989",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Please advise, Mild headache began yesterday afternoon, and I threw up once this morning, feeling somewhat nauseous. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0990",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "Notice: Maybe slight dizziness yesterday after looking at computer screen, gone now. No chest discomfort, no fainting.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0991",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Please advise, Sudden thunderclap headache like being hit with a club on head, vomiting and stiff neck.",
+    "age_group": "child",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0992",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Starting earlier today, Severe headache with continuous nausea and vomiting, feeling very lethargic, difficult to wake up. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0993",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "I am writing because Headache started yesterday and today I vomited once, feeling tired and queasy, no neck stiffness. Please help me understand.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0994",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Perhaps I felt slightly off balance yesterday for 5 seconds after not eating lunch. No weakness, no fainting, normal today. Should I seek medical attention?",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0995",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Namaste doctor, Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. Please help me understand.",
+    "age_group": "infant",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0996",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Please advise, Horrible headache and throwing up since yesterday, extremely drowsy, speaking slowly and confused.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0997",
+    "template_family_id": "FAM-L3-MULTI-19",
+    "split": "test",
+    "text": "Namaste doctor, Head ache since yesterday and threw up breakfast today, feeling queasy, no stiff neck and no confusion.",
+    "age_group": "child",
+    "duration": "2 weeks",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "vomiting"
+    ],
+    "expected_negated": [],
+    "rationale": "Subacute headache followed by single or mild vomiting without fever, sudden thunderclap onset, or neurological deficit per MoHFW guidelines.",
+    "provenance": "MoHFW Primary Health Centre Clinical Triage Guidelines | Template: FAM-L3-MULTI-19",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0998",
+    "template_family_id": "FAM-L4-UNCERTAIN-27",
+    "split": "test",
+    "text": "For context: Perhaps momentary dizziness yesterday after skipping breakfast. Denies chest pain, denies fainting, completely normal today.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "dizziness"
+    ],
+    "expected_negated": [
+      "chest pain",
+      "weakness"
+    ],
+    "rationale": "Uncertain, resolved mention with explicit denial of neurological and cardiac warning signs; self-care and monitoring.",
+    "provenance": "Synthetic test case for uncertain mention and denial verification (India) | Template: FAM-L4-UNCERTAIN-27",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0999",
+    "template_family_id": "FAM-L1-THUNDERCLAP-07",
+    "split": "test",
+    "text": "Explosive headache hit like a bolt of lightning peaking in 10 seconds, excruciating agony, vomited twice. What should I do? (Duration: 10 minutes, Severity: severe)",
+    "age_group": "infant",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "thunderclap_headache"
+    ],
+    "expected_symptoms": [
+      "thunderclap headache"
+    ],
+    "expected_negated": [],
+    "rationale": "Sudden headache reaching peak intensity within seconds (thunderclap) is characteristic of subarachnoid hemorrhage per AIIMS neurovascular protocols.",
+    "provenance": "AIIMS Emergency Medicine Neurovascular Triage Protocol | Template: FAM-L1-THUNDERCLAP-07",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-1000",
+    "template_family_id": "FAM-L2-AMS-13",
+    "split": "test",
+    "text": "Severe headache and throwing up for 2 days, feeling heavily drowsy, family noticed confusion. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "altered_mental_status_with_headache"
+    ],
+    "expected_symptoms": [
+      "headache",
+      "vomiting",
+      "altered mental status"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe headache accompanied by altered mental status, persistent emesis, or lethargy warrants urgent neuro-evaluation per AIIMS guidelines.",
+    "provenance": "AIIMS Clinical Neurology Triage Guidelines | Template: FAM-L2-AMS-13",
+    "is_synthetic": true
+  }
+]

@@ -1,0 +1,2966 @@
+[
+  {
+    "case_id": "SYNTH-0701",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Swollen tongue and throat closing up following honeybee sting, loud stridor, lightheadedness. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0702",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Sudden severe pain in left eye, redness, blurred sight, colored halos around streetlights, feeling sick. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0703",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Throbbing migraine headache on left temple for 7 hours, mild nausea, light sensitivity, gradual onset. Please help me understand.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0704",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, My grandfather passed away from heart attack, but my current symptom is just a mild runny nose and sneezing. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0705",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Severe allergic reaction to prawns, throat feels like closing up, hives, wheezing, vision fading. Please help me understand.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0706",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Currently, Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0707",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Throbbing migraine headache on left temple for 7 hours, mild nausea, light sensitivity, gradual onset. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0708",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Namaste doctor, Worried due to father's cardiac stent last year, though I only have a minor runny nose, no chest pain.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0709",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Throat feels like swelling shut and wheezing after eating seafood, but I took an antiallergic pill and want to wait. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0710",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Starting earlier today, Intense pain in right eye, eyeball feels hard and throbbing, seeing rainbow rings around light bulbs, nauseous. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0711",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "For context: Throbbing migraine headache on left temple for 7 hours, mild nausea, light sensitivity, gradual onset. What should I do?",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0712",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Currently, My father had a heart attack last year so I am worried, but I personally only have a mild runny nose and sneezing. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0713",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Notice: Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0714",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Acute red eye with severe deep pain, nausea, vomiting, seeing colored circles around light sources. Please help me understand.",
+    "age_group": "infant",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0715",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Waiting for advice.",
+    "age_group": "child",
+    "duration": "2 weeks",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0716",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "For context: My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. What should I do?",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0717",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Took antibiotic injection 20 minutes ago, full body red rash, lips and tongue swollen, gasping for air.",
+    "age_group": "elderly",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0718",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Please advise, Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0719",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Starting earlier today, One-sided head pounding for 6 hours, queasy stomach, resting in dark quiet bedroom, no sudden explosion and no stiff neck. What should I do?",
+    "age_group": "infant",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0720",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0721",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Notice: Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing.",
+    "age_group": "unknown",
+    "duration": "2 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0722",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Intense pain in right eye, eyeball feels hard and throbbing, seeing rainbow rings around light bulbs, nauseous. What should I do?",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0723",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "For context: Familiar throbbing headache on left side since morning, mild nausea, photophobia, no thunderclap onset. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0724",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, Family history of heart attack in my father, but I personally only have a slight runny nose and sneezing today. Looking for guidance.",
+    "age_group": "child",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0725",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Please advise, Sudden airway swelling and widespread hives after eating walnuts, vomiting and struggling to breathe.",
+    "age_group": "elderly",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0726",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Starting earlier today, Excruciating right eye ache, blurred vision, cloudy cornea, seeing halos, vomiting from pain. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0727",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Throbbing migraine headache on left temple for 7 hours, mild nausea, light sensitivity, gradual onset. What should I do?",
+    "age_group": "child",
+    "duration": "2 weeks",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0728",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, My mother had cardiac issues two years ago, but for myself I just have a clear runny nose and sniffles for 2 days. Please help me understand.",
+    "age_group": "elderly",
+    "duration": "yesterday",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0729",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Throat swelling shut, unable to swallow, severe wheezing and clammy cold skin after medication. Looking for guidance.",
+    "age_group": "elderly",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0730",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0731",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Throbbing headache on one side of head for 6 hours. No sudden explosion, no stiff neck, no chest pain.",
+    "age_group": "infant",
+    "duration": "5 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0732",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, Family history of heart attack in my father, but I personally only have a slight runny nose and sneezing today. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0733",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Throat feels like swelling shut and wheezing after eating seafood, but I took an antiallergic pill and want to wait. What should I do?",
+    "age_group": "adult",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0734",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. Waiting for advice.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0735",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0736",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "I am writing because My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. What should I do?",
+    "age_group": "unknown",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0737",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "I am writing because Severe allergic reaction to prawns, throat feels like closing up, hives, wheezing, vision fading. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0738",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Please advise, I have had severe throbbing eye pain with blurred vision, seeing colored halos around lights, and nausea for 3 hours.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0739",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Throbbing headache on one side of my head for 6 hours, sensitive to light and mild nausea. I have had these migraines before. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0740",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "My father had a heart attack last year so I am worried, but I personally only have a mild runny nose and sneezing. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0741",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Namaste doctor, Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Looking for guidance.",
+    "age_group": "elderly",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0742",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "For context: Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "8 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0743",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "For context: Throbbing headache on one side of my head for 6 hours, sensitive to light and mild nausea. I have had these migraines before. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0744",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, My uncle suffered a heart attack last summer, but I only have a mild runny nose and occasional sneeze. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0745",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing.",
+    "age_group": "unknown",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0746",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Sudden severe pain in left eye, redness, blurred sight, colored halos around streetlights, feeling sick. Should I seek medical attention?",
+    "age_group": "unknown",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0747",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0748",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "I am writing because My grandfather passed away from heart attack, but my current symptom is just a mild runny nose and sneezing. Waiting for advice.",
+    "age_group": "elderly",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0749",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0750",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Please advise, Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness.",
+    "age_group": "unknown",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0751",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "For context: Pounding headache on right temple for 8 hours, bright light bothers eyes, mild nausea, typical migraine pattern. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0752",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Notice: My uncle suffered a heart attack last summer, but I only have a mild runny nose and occasional sneeze.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0753",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Swollen tongue and throat closing up following honeybee sting, loud stridor, lightheadedness. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0754",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Namaste doctor, Intense pain in right eye, eyeball feels hard and throbbing, seeing rainbow rings around light bulbs, nauseous.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0755",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Starting earlier today, Moderate throbbing headache since this morning, nausea, sensitive to loud sounds and bright sunlight, had similar episodes in past. Should I seek medical attention?",
+    "age_group": "elderly",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0756",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, My mother had cardiac issues two years ago, but for myself I just have a clear runny nose and sniffles for 2 days. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0757",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Notice: Throat swelling shut, unable to swallow, severe wheezing and clammy cold skin after medication. Should I seek medical attention?",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0758",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Currently, Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "3 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0759",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Moderate throbbing headache since this morning, nausea, sensitive to loud sounds and bright sunlight, had similar episodes in past. What should I do?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0760",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Notice: My grandfather passed away from heart attack, but my current symptom is just a mild runny nose and sneezing. What should I do?",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0761",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Please advise, Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Looking for guidance.",
+    "age_group": "elderly",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0762",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness.",
+    "age_group": "adult",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0763",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Throbbing headache on one side of my head for 6 hours, sensitive to light and mild nausea. I have had these migraines before. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0764",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Namaste doctor, My father had a cardiac arrest last year, but I personally do not have chest pain, only a mild runny nose. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0765",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Allergic reaction, lips and uvula massive swelling, hoarse voice turning into gasping within 15 minutes. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0766",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Excruciating right eye ache, blurred vision, cloudy cornea, seeing halos, vomiting from pain.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0767",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Notice: Recurrent migraine headache for 8 hours, moderate throbbing, mild nausea, no neck rigidity and no speech issues. What should I do?",
+    "age_group": "adult",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0768",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, Family history of heart attack in my father, but I personally only have a slight runny nose and sneezing today. Should I seek medical attention? (Duration: 2 days, Severity: unknown)",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0769",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Throat feels like swelling shut and wheezing after eating seafood, but I took an antiallergic pill and want to wait. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0770",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Please help me understand.",
+    "age_group": "elderly",
+    "duration": "2 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0771",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Starting earlier today, Recurrent migraine headache for 8 hours, moderate throbbing, mild nausea, no neck rigidity and no speech issues.",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0772",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Currently, My mother had cardiac issues two years ago, but for myself I just have a clear runny nose and sniffles for 2 days. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0773",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Namaste doctor, Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Please help me understand.",
+    "age_group": "child",
+    "duration": "45 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0774",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. Waiting for advice. (Duration: 1 day, Severity: moderate)",
+    "age_group": "infant",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0775",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. What should I do?",
+    "age_group": "unknown",
+    "duration": "1 week",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0776",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Notice: My father had a cardiac arrest last year, but I personally do not have chest pain, only a mild runny nose. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0777",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Namaste doctor, Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0778",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "For context: Intense right eyeball pain, cannot open eye, seeing halos around lamps, blurred vision since 4 hours. Please help me understand.",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0779",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Pounding headache on right temple for 8 hours, bright light bothers eyes, mild nausea, typical migraine pattern. What should I do?",
+    "age_group": "elderly",
+    "duration": "2 weeks",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0780",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "For context: My mother had cardiac issues two years ago, but for myself I just have a clear runny nose and sniffles for 2 days. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0781",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "I am writing because Throat swelling shut, unable to swallow, severe wheezing and clammy cold skin after medication. Looking for guidance.",
+    "age_group": "unknown",
+    "duration": "unknown",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0782",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Namaste doctor, Intense right eyeball pain, cannot open eye, seeing halos around lamps, blurred vision since 4 hours. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0783",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Notice: Pounding headache on right temple for 8 hours, bright light bothers eyes, mild nausea, typical migraine pattern. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0784",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Notice: Worried because my grandfather had heart disease, but my only personal symptom is a mild runny nose and sneezing.",
+    "age_group": "child",
+    "duration": "1 hour",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0785",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Throat feels like swelling shut and wheezing after eating seafood, but I took an antiallergic pill and want to wait. Please help me understand.",
+    "age_group": "elderly",
+    "duration": "20 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0786",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Please advise, Excruciating right eye ache, blurred vision, cloudy cornea, seeing halos, vomiting from pain.",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0787",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Looking for guidance.",
+    "age_group": "child",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0788",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Currently, My uncle suffered a heart attack last summer, but I only have a mild runny nose and occasional sneeze. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0789",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Took antibiotic injection 20 minutes ago, full body red rash, lips and tongue swollen, gasping for air. Please help me understand.",
+    "age_group": "infant",
+    "duration": "2 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0790",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Starting earlier today, Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0791",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because One-sided head pounding for 6 hours, queasy stomach, resting in dark quiet bedroom, no sudden explosion and no stiff neck. What should I do?",
+    "age_group": "child",
+    "duration": "1 week",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0792",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "unknown",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0793",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Throat feels like swelling shut and wheezing after eating seafood, but I took an antiallergic pill and want to wait. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0794",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Currently, Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Waiting for advice. (Duration: 1 day, Severity: moderate)",
+    "age_group": "infant",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0795",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Familiar throbbing headache on left side since morning, mild nausea, photophobia, no thunderclap onset. Please help me understand.",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0796",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Worried because my grandfather had heart disease, but my only personal symptom is a mild runny nose and sneezing. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0797",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Took antibiotic injection 20 minutes ago, full body red rash, lips and tongue swollen, gasping for air. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0798",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. Please help me understand.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0799",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Pounding headache on right temple for 8 hours, bright light bothers eyes, mild nausea, typical migraine pattern. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "2 weeks",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0800",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "For context: Family history of heart attack in my father, but I personally only have a slight runny nose and sneezing today. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "yesterday",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0801",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Throat swelling shut, unable to swallow, severe wheezing and clammy cold skin after medication. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "10 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0802",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "For context: I have had severe throbbing eye pain with blurred vision, seeing colored halos around lights, and nausea for 3 hours. What should I do?",
+    "age_group": "child",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0803",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Waiting for advice. (Duration: 2 weeks, Severity: mild)",
+    "age_group": "adult",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0804",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Namaste doctor, Worried because my grandfather had heart disease, but my only personal symptom is a mild runny nose and sneezing. What should I do?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0805",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing.",
+    "age_group": "elderly",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0806",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Please advise, Severe ocular agony, eye is bloodshot, hazy vision, throbbing temple headache and nausea. What should I do?",
+    "age_group": "child",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0807",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Notice: Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Waiting for advice.",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0808",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. Waiting for advice.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0809",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Allergic reaction, lips and uvula massive swelling, hoarse voice turning into gasping within 15 minutes.",
+    "age_group": "unknown",
+    "duration": "45 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0810",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. What should I do?",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0811",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Moderate throbbing headache since this morning, nausea, sensitive to loud sounds and bright sunlight, had similar episodes in past. Please help me understand.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0812",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "I am writing because My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. What should I do? (Duration: 3 days, Severity: mild)",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0813",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Sudden airway swelling and widespread hives after eating walnuts, vomiting and struggling to breathe. What should I do?",
+    "age_group": "unknown",
+    "duration": "2 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0814",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. (Duration: 2 days, Severity: moderate)",
+    "age_group": "infant",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0815",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because One-sided head pounding for 6 hours, queasy stomach, resting in dark quiet bedroom, no sudden explosion and no stiff neck.",
+    "age_group": "infant",
+    "duration": "2 weeks",
+    "severity": "mild",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0816",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Currently, My mother had cardiac issues two years ago, but for myself I just have a clear runny nose and sniffles for 2 days. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0817",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Ate peanuts 15 minutes ago, now throat is swelling shut, hives all over, wheezing loudly and feeling faint. Please help me understand.",
+    "age_group": "unknown",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0818",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Should I seek medical attention?",
+    "age_group": "infant",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0819",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Namaste doctor, Throbbing headache on one side of head for 6 hours. No sudden explosion, no stiff neck, no chest pain.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0820",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Namaste doctor, My father had a heart attack last year so I am worried, but I personally only have a mild runny nose and sneezing. What should I do?",
+    "age_group": "infant",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0821",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Namaste doctor, Throat swelling shut, unable to swallow, severe wheezing and clammy cold skin after medication. What should I do?",
+    "age_group": "child",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0822",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Namaste doctor, Acute red eye with severe deep pain, nausea, vomiting, seeing colored circles around light sources. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "3 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0823",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Starting earlier today, Recurrent migraine headache for 8 hours, moderate throbbing, mild nausea, no neck rigidity and no speech issues. (Duration: 3 days, Severity: moderate)",
+    "age_group": "adult",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0824",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "For context: Worried because my grandfather had heart disease, but my only personal symptom is a mild runny nose and sneezing. Please help me understand.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0825",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Currently, Swollen tongue and throat closing up following honeybee sting, loud stridor, lightheadedness. Looking for guidance.",
+    "age_group": "elderly",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0826",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Starting earlier today, Acute red eye with severe deep pain, nausea, vomiting, seeing colored circles around light sources.",
+    "age_group": "elderly",
+    "duration": "3 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0827",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Throbbing headache on one side of head for 6 hours. No sudden explosion, no stiff neck, no chest pain. Waiting for advice.",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0828",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Namaste doctor, My father had a heart attack last year so I am worried, but I personally only have a mild runny nose and sneezing. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0829",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Namaste doctor, Swollen tongue and throat closing up following honeybee sting, loud stridor, lightheadedness. Should I seek medical attention?",
+    "age_group": "unknown",
+    "duration": "1 hour",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0830",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Acute red eye with severe deep pain, nausea, vomiting, seeing colored circles around light sources. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "8 hours",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0831",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Currently, Moderate throbbing headache since this morning, nausea, sensitive to loud sounds and bright sunlight, had similar episodes in past. Please help me understand. (Duration: 5 days, Severity: unknown)",
+    "age_group": "adult",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0832",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, My uncle suffered a heart attack last summer, but I only have a mild runny nose and occasional sneeze.",
+    "age_group": "child",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0833",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing.",
+    "age_group": "child",
+    "duration": "1 hour",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0834",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Namaste doctor, Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0835",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "I am writing because Pounding headache on right side for 6 hours, feels like past migraines, slight nausea, no fever and no weakness. Looking for guidance.",
+    "age_group": "infant",
+    "duration": "5 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0836",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, Worried because my grandfather had heart disease, but my only personal symptom is a mild runny nose and sneezing. What should I do?",
+    "age_group": "child",
+    "duration": "2 days",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0837",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Please advise, Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing. Waiting for advice.",
+    "age_group": "unknown",
+    "duration": "10 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0838",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Severe throbbing eye pain with halos, no body fever, no cough, no chest tightness. Waiting for advice.",
+    "age_group": "child",
+    "duration": "1 day",
+    "severity": "severe",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0839",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "For context: Pounding headache on right temple for 8 hours, bright light bothers eyes, mild nausea, typical migraine pattern.",
+    "age_group": "adult",
+    "duration": "unknown",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0840",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Starting earlier today, My grandfather passed away from heart attack, but my current symptom is just a mild runny nose and sneezing. Should I seek medical attention?",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0841",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "For context: Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing. Please help me understand.",
+    "age_group": "adult",
+    "duration": "45 minutes",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0842",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Should I seek medical attention?",
+    "age_group": "child",
+    "duration": "1 day",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0843",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Starting earlier today, Moderate throbbing headache since this morning, nausea, sensitive to loud sounds and bright sunlight, had similar episodes in past. Should I seek medical attention? (Duration: 3 days, Severity: moderate)",
+    "age_group": "elderly",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0844",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "I am writing because My brother had cardiac issues previously, but I personally just have mild sniffles and sneezing for 2 days. What should I do? (Duration: yesterday, Severity: unknown)",
+    "age_group": "infant",
+    "duration": "yesterday",
+    "severity": "unknown",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0845",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Starting earlier today, Swollen tongue and throat closing up following honeybee sting, loud stridor, lightheadedness. What should I do?",
+    "age_group": "infant",
+    "duration": "45 minutes",
+    "severity": "moderate",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0846",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "Notice: Throbbing right eye pain, decreased vision, halos around ceiling lights, severe headache and queasiness. Looking for guidance.",
+    "age_group": "adult",
+    "duration": "2 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0847",
+    "template_family_id": "FAM-L3-MIGRAINE-18",
+    "split": "val",
+    "text": "Namaste doctor, Throbbing headache on one side of head for 6 hours. No sudden explosion, no stiff neck, no chest pain. What should I do?",
+    "age_group": "infant",
+    "duration": "3 days",
+    "severity": "unknown",
+    "reference_triage_category": "Level 3",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "headache",
+      "nausea"
+    ],
+    "expected_negated": [],
+    "rationale": "Uncomplicated recurrent migraine headache with photophobia and nausea without thunderclap onset or focal neurological signs.",
+    "provenance": "AIIMS Headache Clinic Clinical Protocol | Template: FAM-L3-MIGRAINE-18",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0848",
+    "template_family_id": "FAM-L4-THIRDPARTY-26",
+    "split": "val",
+    "text": "Please advise, My uncle suffered a heart attack last summer, but I only have a mild runny nose and occasional sneeze. Please help me understand.",
+    "age_group": "adult",
+    "duration": "1 hour",
+    "severity": "mild",
+    "reference_triage_category": "Level 4",
+    "expected_red_flags": [],
+    "expected_symptoms": [
+      "runny nose",
+      "sneezing"
+    ],
+    "expected_negated": [],
+    "rationale": "Third-party discrimination: family member's past cardiac history must not escalate patient's personal mild common cold.",
+    "provenance": "Synthetic test case for third-party context discrimination (India) | Template: FAM-L4-THIRDPARTY-26",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0849",
+    "template_family_id": "FAM-L1-ANAPHYLAXIS-06",
+    "split": "val",
+    "text": "Stung by wasp in farm 10 minutes ago, tongue swelling rapidly, cannot swallow saliva, throat tightness and wheezing. Please help me understand.",
+    "age_group": "infant",
+    "duration": "2 hours",
+    "severity": "severe",
+    "reference_triage_category": "Level 1",
+    "expected_red_flags": [
+      "anaphylaxis"
+    ],
+    "expected_symptoms": [
+      "airway swelling",
+      "difficulty breathing"
+    ],
+    "expected_negated": [],
+    "rationale": "Acute multisystem allergic response with airway compromise and bronchospasm meets ICMR criteria for anaphylactic shock.",
+    "provenance": "ICMR Acute Anaphylaxis Emergency Triage Protocol | Template: FAM-L1-ANAPHYLAXIS-06",
+    "is_synthetic": true
+  },
+  {
+    "case_id": "SYNTH-0850",
+    "template_family_id": "FAM-L2-EYE-12",
+    "split": "val",
+    "text": "I am writing because Acute red eye with severe deep pain, nausea, vomiting, seeing colored circles around light sources.",
+    "age_group": "child",
+    "duration": "3 days",
+    "severity": "moderate",
+    "reference_triage_category": "Level 2",
+    "expected_red_flags": [
+      "acute_angle_closure_glaucoma"
+    ],
+    "expected_symptoms": [
+      "severe eye pain"
+    ],
+    "expected_negated": [],
+    "rationale": "Severe throbbing unilateral ocular pain with visual haloes and nausea indicates acute angle-closure glaucoma per AIOS guidelines.",
+    "provenance": "All India Ophthalmological Society (AIOS) Emergency Eye Guidelines | Template: FAM-L2-EYE-12",
+    "is_synthetic": true
+  }
+]

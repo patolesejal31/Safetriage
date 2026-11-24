@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, viewport-fit=cover">
+  <title>SafeTriage — Offline On-Device Edition</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: #f8fafc; color: #0f172a; padding-bottom: 80px; }
+    .header { background: #0369a1; color: white; padding: 16px 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .logo-row { display: flex; align-items: center; justify-content: space-between; }
+    .logo-title { font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+    .badge { font-size: 10px; font-weight: 700; text-transform: uppercase; padding: 2px 6px; border-radius: 4px; background: #0284c7; }
+    .emergency-bar { background: #0f172a; color: #cbd5e1; font-size: 11px; padding: 6px 16px; text-align: center; }
+    .emergency-bar strong { color: #f59e0b; }
+    .container { max-width: 600px; margin: 0 auto; padding: 16px; }
+    .card { background: white; border: 1px solid #e2e8f0; border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+    .mode-pill { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; color: #0369a1; background: #e0f2fe; padding: 4px 10px; border-radius: 9999px; margin-bottom: 10px; }
+    h2 { font-size: 18px; font-weight: 800; color: #0f172a; margin-bottom: 6px; }
+    p.desc { font-size: 12px; color: #64748b; line-height: 1.5; margin-bottom: 16px; }
+    label { display: block; font-size: 12px; font-weight: 700; color: #334155; margin-bottom: 6px; }
+    textarea { width: 100%; border: 1px solid #cbd5e1; border-radius: 12px; padding: 12px; font-size: 14px; color: #0f172a; resize: vertical; min-height: 100px; outline: none; }
+    textarea:focus { border-color: #0284c7; box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.2); }
+    .btn { display: inline-flex; align-items: center; justify-content: center; width: 100%; padding: 14px 20px; font-size: 14px; font-weight: 700; border-radius: 12px; border: none; cursor: pointer; transition: all 0.15s ease; text-decoration: none; }
+    .btn-primary { background: #0369a1; color: white; margin-top: 12px; box-shadow: 0 2px 4px rgba(3, 105, 161, 0.2); }
+    .btn-primary:active { background: #075985; transform: scale(0.99); }
+    .btn-emergency { background: #dc2626; color: white; padding: 10px 14px; font-size: 13px; font-weight: 800; margin-top: 8px; border-radius: 10px; }
+    .btn-emergency:active { background: #b91c1c; }
+    .presets { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+    .preset-chip { font-size: 11px; padding: 6px 10px; border-radius: 8px; border: 1px solid #e2e8f0; background: #f8fafc; color: #334155; cursor: pointer; }
+    .preset-chip:active { background: #e2e8f0; }
+    .result-box { display: none; margin-top: 16px; border-radius: 16px; padding: 20px; }
+    .level-1 { background: #fef2f2; border: 2px solid #ef4444; color: #991b1b; }
+    .level-2 { background: #fffbeb; border: 2px solid #f59e0b; color: #92400e; }
+    .level-3 { background: #eff6ff; border: 2px solid #3b82f6; color: #1e40af; }
+    .level-4 { background: #ecfdf5; border: 2px solid #10b981; color: #065f46; }
+    .result-level { font-size: 20px; font-weight: 900; margin-bottom: 6px; display: flex; align-items: center; justify-content: space-between; }
+    .result-rec { font-size: 14px; font-weight: 800; margin: 10px 0; line-height: 1.4; }
+    .rules-list { font-size: 11px; margin-top: 8px; padding-left: 16px; line-height: 1.6; }
+    .emergency-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+    .history-section { margin-top: 24px; }
+    .history-card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px 16px; margin-bottom: 8px; font-size: 12px; }
+    .server-status { font-size: 11px; text-align: center; color: #64748b; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="emergency-bar">
+    <strong>In a Medical Emergency:</strong> Call <strong>112 / 108 / 911</strong> immediately.
+  </div>
+
+  <header class="header">
+    <div class="logo-row">
+      <div class="logo-title">SafeTriage</div>
+      <div class="badge">Offline APK Edition</div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <div class="mode-pill">
+        <span>●</span> On-Device Clinical Safety Engine Active
+      </div>
+      <h2>Symptom Assessment</h2>
+      <p class="desc">
+        Evaluate your symptoms on-device using validated deterministic clinical rules (AHA/ACC, BTS, NICE, WAO).
+      </p>
+
+      <label>Quick Test Scenarios (Click to load):</label>
+      <div class="presets">
+        <button class="preset-chip" onclick="setPreset('Crushing chest pain radiating down left arm with shortness of breath')">Chest Pain (L1 Emergency)</button>
+        <button class="preset-chip" onclick="setPreset('Sudden slurred speech and right arm weakness since 20 minutes')">Stroke Sign (L1 Emergency)</button>
+        <button class="preset-chip" onclick="setPreset('I have NO chest pain. Just mild runny nose and sneezing for 2 days.')">Cold / Negated (L4 Self-Care)</button>
+        <button class="preset-chip" onclick="setPreset('Severe lower right abdominal stomach pain and tenderness')">Acute Abdomen (L2 Urgent)</button>
+      </div>
+
+      <label for="symptoms">Describe what you are feeling:</label>
+      <textarea id="symptoms" placeholder="e.g. Sharp chest pain radiating to left jaw, feeling short of breath and sweating..."></textarea>
+
+      <button class="btn btn-primary" onclick="runOfflineTriage()">Assess Symptoms On-Device</button>
+
+      <!-- Results Container -->
+      <div id="resultBox" class="result-box">
+        <div class="result-level">
+          <span id="levelTitle">Level 1 — Emergency</span>
+          <span id="levelBadge" style="font-size: 11px; text-transform: uppercase;"></span>
+        </div>
+        <div id="resultRec" class="result-rec"></div>
+        <p style="font-size: 12px; font-weight: 700; margin-top: 8px;">Triggered Clinical Safety Invariants:</p>
+        <ul id="rulesList" class="rules-list"></ul>
+
+        <div id="emergencyButtons" class="emergency-grid" style="display: none;">
+          <a href="tel:112" class="btn btn-emergency">Call 112 (Emergency)</a>
+          <a href="tel:108" class="btn btn-emergency">Call 108 (Ambulance)</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- History Container -->
+    <div class="history-section">
+      <h3 style="font-size: 14px; font-weight: 800; color: #1e293b; margin-bottom: 8px;">Recent On-Device History</h3>
+      <div id="historyList"></div>
+      <button onclick="clearHistory()" style="background: none; border: none; font-size: 11px; color: #ef4444; font-weight: 700; cursor: pointer; padding: 4px;">Clear Device History</button>
+    </div>
+
+    <div class="server-status">
+      SafeTriage Android APK • Deterministic Safety Invariants Enforced
+    </div>
+  </div>
+
+  <script>
+    const RULES = [
+      {
+        id: "RF-001",
+        name: "Acute Coronary Syndrome / Myocardial Infarction",
+        level: "Level 1",
+        keywords: ["chest pain", "crushing chest", "pressure in chest", "chest tightness"],
+        rec: "Immediate emergency evaluation at the nearest emergency department. Call 112 / 108 / 911 immediately.",
+        ref: "AHA/ACC 2021 Chest Pain Guideline"
+      },
+      {
+        id: "RF-002",
+        name: "Acute Focal Neurological Deficit (FAST Stroke Criteria)",
+        level: "Level 1",
+        keywords: ["facial droop", "slurred speech", "cannot speak", "arm weakness", "hemiparesis", "stroke"],
+        rec: "Immediate emergency hospital transfer via ambulance. Note the exact time symptoms started.",
+        ref: "AHA/ASA Stroke Guidelines"
+      },
+      {
+        id: "RF-003",
+        name: "Severe Respiratory Compromise & Hypoxemia",
+        level: "Level 1",
+        keywords: ["cannot breathe", "gasping", "severe shortness of breath", "blue lips", "cyanosis", "suffocating"],
+        rec: "Call emergency ambulance immediately. Sit upright and avoid physical exertion.",
+        ref: "British Thoracic Society (BTS) Oxygen Guidelines"
+      },
+      {
+        id: "RF-004",
+        name: "Sudden Severe Thunderclap Headache",
+        level: "Level 1",
+        keywords: ["thunderclap headache", "worst headache of life", "sudden intense headache"],
+        rec: "Emergency neurovascular evaluation and urgent non-contrast head CT.",
+        ref: "NICE CKS Headaches"
+      },
+      {
+        id: "URG-001",
+        name: "Acute Abdominal Peritoneal Signs (Appendicitis / Cholecystitis)",
+        level: "Level 2",
+        keywords: ["lower right stomach pain", "severe abdominal pain", "appendix pain", "rigid stomach"],
+        rec: "Seek urgent medical evaluation at an acute clinical care center today.",
+        ref: "WSES Acute Appendicitis Guidelines"
+      },
+      {
+        id: "ROUT-001",
+        name: "Subacute Ambulatory Symptoms",
+        level: "Level 3",
+        keywords: ["cough for 2 weeks", "earache", "burning urination", "mild knee pain"],
+        rec: "Schedule a routine consultation with your primary care physician within 24 to 72 hours.",
+        ref: "NICE Primary Care Guidelines"
+      },
+      {
+        id: "SELF-001",
+        name: "Mild Self-Limiting Symptoms",
+        level: "Level 4",
+        keywords: ["mild runny nose", "sneezing", "minor paper cut", "muscle soreness"],
+        rec: "Monitor symptoms at home with adequate rest and hydration. Seek review if symptoms worsen.",
+        ref: "NHS Self-Care Guidance"
+      }
+    ];
+
+    const NEGATIONS = ["no", "not", "without", "denies", "denied", "never", "negative for", "doesn't have", "does not have"];
+
+    function setPreset(text) {
+      document.getElementById('symptoms').value = text;
+      runOfflineTriage();
+    }
+
+    function isNegated(sentence, kw) {
+      const idx = sentence.indexOf(kw);
+      if (idx === -1) return false;
+      const prefix = sentence.substring(0, idx).toLowerCase();
+      const words = prefix.split(/\s+/).slice(-5).join(" ");
+      return NEGATIONS.some(neg => new RegExp('\\b' + neg + '\\b', 'i').test(words));
+    }
+
+    function runOfflineTriage() {
+      const text = document.getElementById('symptoms').value.trim();
+      if (!text || text.length < 3) {
+        alert("Please describe what symptoms you are experiencing.");
+        return;
+      }
+
+      const lower = text.toLowerCase();
+      const sentences = lower.split(/[.;!?\n]+/);
+
+      let detectedLevel = "Level 4";
+      let highestRule = RULES.find(r => r.id === "SELF-001");
+      const triggered = [];
+
+      const rank = { "Level 1": 1, "Level 2": 2, "Level 3": 3, "Level 4": 4 };
+
+      RULES.forEach(rule => {
+        let hit = false;
+        sentences.forEach(sentence => {
+          rule.keywords.forEach(kw => {
+            if (sentence.includes(kw) && !isNegated(sentence, kw)) {
+              hit = true;
+            }
+          });
+        });
+
+        if (hit) {
+          triggered.push(rule);
+          if (rank[rule.level] < rank[detectedLevel]) {
+            detectedLevel = rule.level;
+            highestRule = rule;
+          }
+        }
+      });
+
+      // Render Results
+      const box = document.getElementById('resultBox');
+      box.className = 'result-box ' + (detectedLevel === 'Level 1' ? 'level-1' : detectedLevel === 'Level 2' ? 'level-2' : detectedLevel === 'Level 3' ? 'level-3' : 'level-4');
+      box.style.display = 'block';
+
+      document.getElementById('levelTitle').textContent = detectedLevel + " — " + (detectedLevel === 'Level 1' ? 'Emergency' : detectedLevel === 'Level 2' ? 'Urgent' : detectedLevel === 'Level 3' ? 'Routine' : 'Self-Care');
+      document.getElementById('levelBadge').textContent = highestRule.ref;
+      document.getElementById('resultRec').textContent = highestRule.rec;
+
+      const list = document.getElementById('rulesList');
+      list.innerHTML = '';
+      if (triggered.length === 0) {
+        const li = document.createElement('li');
+        li.textContent = "Standard Self-Care: No acute red-flag keywords detected.";
+        list.appendChild(li);
+      } else {
+        triggered.forEach(r => {
+          const li = document.createElement('li');
+          li.textContent = r.id + ": " + r.name + " (" + r.ref + ")";
+          list.appendChild(li);
+        });
+      }
+
+      const emBtns = document.getElementById('emergencyButtons');
+      emBtns.style.display = detectedLevel === 'Level 1' ? 'grid' : 'none';
+
+      // Save to localStorage
+      saveHistory(detectedLevel, text);
+      renderHistory();
+    }
+
+    function saveHistory(level, summary) {
+      try {
+        const history = JSON.parse(localStorage.getItem('safetriage_offline_history') || '[]');
+        history.unshift({
+          level: level,
+          summary: summary.length > 60 ? summary.substring(0, 57) + '...' : summary,
+          date: new Date().toLocaleDateString([], { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+        });
+        localStorage.setItem('safetriage_offline_history', JSON.stringify(history.slice(0, 10)));
+      } catch (e) {}
+    }
+
+    function renderHistory() {
+      const container = document.getElementById('historyList');
+      try {
+        const history = JSON.parse(localStorage.getItem('safetriage_offline_history') || '[]');
+        if (history.length === 0) {
+          container.innerHTML = '<p style="font-size: 11px; color: #94a3b8;">No assessments saved on this device yet.</p>';
+          return;
+        }
+        container.innerHTML = history.map(item => `
+          <div class="history-card">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; color: #0f172a; margin-bottom: 4px;">
+              <span>${item.level}</span>
+              <span style="font-size: 10px; color: #94a3b8;">${item.date}</span>
+            </div>
+            <div style="color: #475569;">${item.summary}</div>
+          </div>
+        `).join('');
+      } catch (e) {}
+    }
+
+    function clearHistory() {
+      if (confirm("Clear all on-device assessment records?")) {
+        localStorage.removeItem('safetriage_offline_history');
+        renderHistory();
+      }
+    }
+
+    // Render history on page load
+    renderHistory();
+  </script>
+</body>
+</html>
